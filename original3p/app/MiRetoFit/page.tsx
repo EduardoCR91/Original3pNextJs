@@ -7,7 +7,15 @@ export default function MiRetoFit() {
     "Medita 10 minutos 🧘‍♂️",
     "Toma 2 litros de agua 💧",
     "Camina 15 minutos 🚶‍♀️",
-    "Haz 10 estiramientos de cuello 🦒"
+    "Haz 10 estiramientos de cuello 🦒",
+    "Haz 3 series de 10 sentadillas (sin peso) 🦵",
+    "Prepara una cena sin carnes rojas (vegetariana o con pescado) 🥗",
+    "Mantén la posición de plancha durante 45 segundos 🧘",
+    "Lee sobre un tema nuevo de nutrición durante 5 minutos 🧠",
+    "Añade una fruta o verdura de un color nuevo a tu dieta hoy 🌈",
+    "Sube las escaleras dos veces extra hoy (en lugar de usar el ascensor) ⬆️",
+    "Realiza 30 segundos de saltos de tijera (Jumping Jacks) 🤸",
+    "Pasa 30 minutos sin usar ninguna pantalla (celular, TV, computadora) 📵",
   ];
 
   const [reto, setReto] = useState(retos[Math.floor(Math.random() * retos.length)]);
