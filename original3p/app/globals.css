@@ -27,4 +27,5 @@ body {
   background: linear-gradient(180deg, #88c8f3 0%, #a9adb3 100%);
   color: var(--foreground); /* Mantiene el soporte para modo oscuro */
   font-family: 'Inter', sans-serif;
+  @apply bg-gray-100 text-gray-800 font-sans;
 }
